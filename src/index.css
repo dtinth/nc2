@@ -1,0 +1,8 @@
+
+@import "vars.css";
+
+:global body {
+  font: var(--main-font-size) var(--main-font-family);
+  background: #353433;
+  color: #e9e8e7;
+}
