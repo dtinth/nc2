@@ -7,6 +7,6 @@ let DEFAULT_STATE = {
 
 export default createReducer(DEFAULT_STATE, {
   [ActionTypes.TITLE_CHANGED](state, { text }) {
-    return { ...state, title: text + '!!' }
+    return { ...state, title: text }
   }
 })
